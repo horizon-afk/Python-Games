@@ -12,7 +12,7 @@ class myGame(tk.Tk):
         self.geometry("249x450+500+250")
         self.resizable(0, 0)
 
-        # this variable tells the program understand the current playing user
+        # this variable tells the program the current playing user
 
         self.player = 1
 
