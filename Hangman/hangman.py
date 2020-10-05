@@ -14,8 +14,6 @@ class Hangman:
         
         #ramdomly selects a word from words.py
         self.word = random.choice(words).upper()
-                
-        print(self.word)
         
         #this list stores characters irrespective of them being right or wrong
         self.guessed_char = []
