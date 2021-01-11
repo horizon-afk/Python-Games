@@ -41,9 +41,8 @@ class Hangman:
             self.guessed_char.sort()
             guessed = ",".join(self.guessed_char)
             
-            print("Guessed characters: ", end="")
-            print(guessed)
-            
+            print(f"Guessed characters: {guessed}")
+          
             #when user fails to guess the word
 
             if self.tries == 1:
